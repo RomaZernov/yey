@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCoder - Gulp шаблон</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./images/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+</head>
+
+<body   
+>
+    <div class="wrapper">
+        <header class="first-screen" id="first-screen">
+            <section class="header">
+                <div class="header__container">
+                    <a href="./index.html" class="header__logo logo">
+                        <img src="./images/logo.webp" alt="РУМТИБЕТ" title="РУМТИБЕТ">
+                    </a>
+        
+                    <div class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#header" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="#guide" class="menu__link">Про гида</a></li>
+                            <li class="menu__item"><a href="#programm" class="menu__link">Программа тура</a></li>
+                            <li class="menu__item"><a href="#cost" class="menu__link">Стоимость</a></li>
+                            <li class="menu__item"><a href="#blog" class="menu__link">Блог</a></li>
+                            <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                
+                    <button class="header__btn but off">Программа тура</button>
+                    
+                    <div class="header__burger"><span></span><span></span><span></span></div>
+                </div>
+            </section>
+            <section class="first-screen__screen screen">
+                <div class="screen__container">
+                    <h1 class="screen__title">
+                        Насладись прогулкой в горах <br>
+                        с командой единомышленников
+                    </h1>
+                    <form action="#" class="screen__form form">
+                        <div class="form__select select-form">
+                            <div class="select-form__wrapper">
+                                <div class="select-form__header 1">
+                                    <span class="select-form__current">Локация тура</span>
+                                    <div class="select-form__icon"><img src="images/arrow-select.svg" alt=""></div>
+                                </div>
+                                <div class="select-form__list">
+                                    <div class="select-form__list-item">Сша(Вашингтон)</div>
+                                    <div class="select-form__list-item">Великобритания(Лондон)</div>
+                                    <div class="select-form__list-item">Россия(Москва)</div>
+                                    <div class="select-form__list-item">Франция(Париж)</div>
+                                    <div class="select-form__list-item">Италия(Рим)</div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="select-form__label">выберите из списка</div>
+                        </div>
+                        <div class="form__select select-form">
+                            <div class="select-form__date date">
+                                <input class="date__input" type="date" name="start-date">
+                                <input class="date__input" type="date" name="final-date">
+                            </div>
+                            <div class="select-form__label">укажите диапазон</div>
+                        </div>
+                        <div class="form__select select-form">
+                            <div class="select-form__wrapper">
+                                <div class="select-form__header">
+                                    <span class="select-form__current">Участники</span>
+                                    <div class="select-form__icon"><img src="images/arrow-select.svg" alt=""></div>
+                                </div>
+                                <div class="select-form__list">
+                                    <div class="select-form__list-item">5</div>
+                                    <div class="select-form__list-item">6</div>
+                                    <div class="select-form__list-item">7</div>
+                                    <div class="select-form__list-item">8</div>
+                                    <div class="select-form__list-item">9</div>
+                                    <div class="select-form__list-item">10</div>
+                                </div>
+                            </div>
+                            <div class="select-form__label">минимум 4 человека</div>
+                        </div>
+                        <button type="submit" class="form__btn">Найти программу</button>
+                    </form>
+                </div>
+            </section>
+        </header>
+              <div class="container"  >
+            <div class="col row">
+                <div class="col-lg-6 col-md-7">
+                    <section class="section" style="text-align: center;" >
+                        <img class="desktop-image" src="./images/1.svg" alt="" width="400px">
+                        <img class="mobile-image" src="./images/rec1.svg" alt="" >
+                    </section>
+                </div>
+                <div class="col-lg-6 col-md-5">
+                    <section class="section">
+                        <div class="widget" >
+                            <br><br><br>    
+                            <h2 class="mb-1 zhel" >о нашем походе</h2>
+                          <h4 class="mb-4 black">
+                          Исследуйте все горные массивы мира вместе с нами</h4>
+                          <address class="mb-4 mini">
+                          Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.
+                          </address>
+                          
+                          <button class="but">Программа тура</button>
+                       
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <section  class=" container section-2">
+          <div class="col-lg-6 block xam" style="text-align: center;  padding-top:20px ;"  >
+              <div class="col-md-12   big-block" >
+                 <h2 class="col-md-12 zhel">наше предложение</h2>
+                 <h4 class="col-md-12 black" >Лучшие программы для тебя</h4>
+                 <p  class="col-md-12 mini" > Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+             
+            </div>
+              
+              <div class="col-lg- sub-block">
+                <div class="col-lg-1 " >
+                  <img class="" src="./images/Group.png" alt="Photo 1">
+                </div>
+                <div class="col-lg-11 " style="text-align: start;">
+                  <h4 class="gids">Опытный гид</h4>
+                  <p class="gids2" >Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                </div>
+              </div>
+              <br>
+              <br>
+              <div class="col-md-12  sub-block">
+                <div class="col-lg-1  " >
+                  <img class="" src="./images/Group2.png" alt="Photo 1">
+                </div>
+                <div class="col-lg-11   " style="text-align: start;">
+                  <h4 class="gids">Безопасный поход</h4>
+                  <p class="gids2">
+                  Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                  </div>
+                
+              </div>
+           
+              <div class="col sub-block">
+                <div class="col-lg-1" >
+                  <img class="" src="./images/Group3.png" alt="Photo 1">
+                </div>
+                <div class="col-lg-11 " style="text-align: start;">
+                  <h4 class="gids">Лояльные цены</h4>
+                  <p class="gids2" >
+                  Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                </div>
+                                
+              </div>
+               <div class="col-lg-12 sub-block er">
+                <div class="col-12 col-md-12 er" style="text-align: start;" >
+                  <br>
+                  <button class="but" >Стоимость программ</button>
+                </div>
+                 </div>
+             <br>
+          </div>
+          <div  class="row block12" style="padding-top: 50px;">
+            <div class="container">
+              <div class="row " style="padding-left:100px;">
+                <div class="col-lg-5" >
+                  <img  class="es off" src="./images/Rectangle 8.png" >
+                </div>
+                  <div class="col-lg-5 " style="padding-left: 40px;">
+                  <img class="es" src="./images/Rectangle 9.png" alt="Photo 6">
+                </div>
+              </div>
+              <br>
+              <div class="row"style="padding-left:100px;" >
+                <div class="col-lg-5">
+                  <img class="es" src="./images/Rectangle 10.png" >
+                </div>
+                  <div class="col-lg-5 block" style="padding-left: 40px;">
+                  <img class="es" src="./images/Rectangle 11.png" alt="Photo 6">
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+<br>
+<section class="col-12 container section-3">
+  <div class="col-12" >
+      <div class="col-lg-12 text-block" style="text-align: center;" >
+          <h4 class="zhel" style="text-align: center;">по версии отдыхающих</h4>
+          <p class="black" style="text-align: center;" >Популярные направления</p>
+      </div>
+  </div>
+
+   <section class="main__rating rating iz" >
+    <div class="rating__container">
+                <ul class="rating__list">
+            <li class="rating__item trip iz">
+                <div class="trip__info">
+                    <h4 class="trip__title">Озеро возле гор</h4>
+                    <p class="trip__text">романтическое приключение</p>
+                    <span class="trip__price">480 $</span>
+                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                    <a class="trip__link" href="#">Программа тура</a>
+                </div>
+                <div class="trip__stars"> <img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.9</div>
+                <img class="trip__image" src="./images/fon.svg" alt="Озеро возле гор" width="380" height="500">
+            </li>
+            <li class="rating__item trip iz">
+                <div class="trip__info">
+                    <h4 class="trip__title">Ночь в горах</h4>
+                    <p class="trip__text">в компании друзей</p>
+                    <span class="trip__price">500 $</span>
+                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                    <a class="trip__link" href="#">Программа тура</a>
+                </div>
+                <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.5</div>
+                <img class="trip__image" src="./images/фоновое изображение.svg" alt="Озеро возле гор" width="380" height="500">
+            </li>
+            <li class="rating__item trip iz">
+                <div class="trip__info">
+                    <h4 class="trip__title">Йога в горах</h4>
+                    <p class="trip__text">для тех, кто забоится о себе</p>
+                    <span class="trip__price">230 $</span>
+                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                    <a class="trip__link" href="#">Программа тура</a>
+                </div>
+                <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">5.0</div>
+                <img class="trip__image" src="./images/фоновое изображение (1).svg" alt="Озеро возле гор" width="380" height="500">
+            </li>
+        </ul>
+
+    </div>
+</section>
+<style>
+  .carousel-control-prev {
+    display: none;
+}
+</style>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <li class="rating__item trip ">
+        <div class="trip__info">
+            <h4 class="trip__title">Озеро возле гор</h4>
+            <p class="trip__text">романтическое приключение</p>
+            <span class="trip__price">480 $</span>
+            <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+            <a class="trip__link" href="#">Программа тура</a>
+        </div>
+        <div class="trip__stars"> <img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.9</div>
+        <img class="trip__image" src="./images/fon.svg" alt="Озеро возле гор" width="380" height="500">
+    </li>
+    </div>
+    <div class="carousel-item">
+      <li class="rating__item trip ">
+        <div class="trip__info">
+            <h4 class="trip__title">Ночь в горах</h4>
+            <p class="trip__text">в компании друзей</p>
+            <span class="trip__price">500 $</span>
+            <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+            <a class="trip__link" href="#">Программа тура</a>
+        </div>
+        <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.5</div>
+        <img class="trip__image" src="./images/фоновое изображение.svg" alt="Озеро возле гор" width="380" height="500">
+    </li>
+    </div>
+    <div class="carousel-item">
+      <li class="rating__item trip ">
+        <div class="trip__info">
+            <h4 class="trip__title">Йога в горах</h4>
+            <p class="trip__text">для тех, кто забоится о себе</p>
+            <span class="trip__price">230 $</span>
+            <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+            <a class="trip__link" href="#">Программа тура</a>
+        </div>
+        <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">5.0</div>
+        <img class="trip__image" src="./images/фоновое изображение (1).svg" alt="Озеро возле гор" width="380" height="500">
+    </li>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+  <br>
+  <div class="row" style=" text-align: center;" >
+    <div class="col" > 
+        <button class=" but" style="text-align: center;">Рейтинг программ</button> 
+    </div> 
+  </div>
+<br>
+
+
+
+</section>
+<section class="col-12 container section4 " >
+  <div class="col-12"  >
+    <div class="col-lg-12 text-block" style="text-align: center;" >
+        <h4 class="zhel" style="text-align: center;">по версии отдыхающих</h4>
+        <p class="black" style="text-align: center;" >Популярные направления</p>
+    </div>
+</div>
+  <div class="iz " >
+    <div class="col-lg-12 col-md-12" style="display: flex;" >
+      <div class="col  block" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 15px; gap:24 px;">
+        <div class="col-lg-6 " >
+          <img class="" src="./images/Rectangle 19.png" alt="Photo 1">
+        </div>
+        <div class="col-lg-6 " style="text-align: start;">
+          <h4 class="gids">Красивая Италя, какая она в реальности?</h4>
+          <p class="gids2" >
+         Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+         <div class="row " style=" height: 120px; display: flex;
+       
+        align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class="" style="color: #1A3E3E;text-decoration: none;" href="#" > читать статью</a>
+          </p>
+      </div>
+        </div>
+        </div>
+        </div>
+      <div  class="col block off" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 16px; gap: px;">
+        <div class="col-lg-6 col-md-2 "  >
+          <img class="off" src="./images/Rectangle 19 (1).png" alt="Photo 1">
+        </div>
+        <div class="off col-lg-6 " style="text-align: start;" >
+          <h4 class="gids">Долой сомнения! Весь мир открыт для вас!</h4>
+          <p class="gids2">
+          Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих условий</p>
+          <div class="row " style=" height: 100px; display: flex;
+                align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class=" " style="color: #1A3E3E;text-decoration: none;"  href="#" > читать статью</a>
+          </p>
+              </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="off col-lg-12" style="display: flex;">
+      <div class="col block off" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 16px; gap: px;">
+        <div class="col-lg-6" >
+          <img class="off" style="margin-top: 10px;" src="./images/Rectangle 19 (2).png" alt="Photo 1">
+        </div>
+        <div class="col-lg-6 " >
+          <h4 class="gids">Как подготовиться к путешествию в одиночку? </h4>
+          <p class="gids2">
+          Для современного мира базовый вектор развития предполагает.</p>
+          <div class="row " style=" height: 170px; display: flex;
+       
+        align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class=" " style="color: #1A3E3E;text-decoration: none;"  href="#" > читать статью</a>
+          </p>
+        
+      </div>
+        </div>
+        </div>
+      </div>
+   <div class="col block off" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+   padding: 16px; gap: px;">
+        <div class="col-lg-6 off" >
+          <img class="off" style="margin-top: 10px;" src="./images/Rectangle 19 (3).png" alt="Photo 1">
+        </div>
+        <div class="col-lg-6 off" >
+          <h4 class="gids">Индия ... летим?</h4>
+          <p class="gids2">
+          Для современного мира базовый.</p>
+          
+        <div class="row " style=" height: 220px; display: flex;
+       
+        align-items: flex-end;"> 
+         <div class="row col-md-12 off"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class=" " style="color: #1A3E3E;text-decoration: none;"   href="#"> читать статью</a>
+          </p>
+              </div>
+        </div>
+      </div> 
+              </div>
+    </div>
+          </div>
+ <br>
+<style>
+ 
+</style>
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="col block" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 15px; gap:24 px;">
+        <div class="col-lg-6 " >
+          <img class="" src="./images/Rectangle 19.png" alt="Photo 1" >
+        </div>
+        <div class="col-lg-6 " style="text-align: start;">
+          <h4 class="gids">Красивая Италя, какая она в реальности?</h4>
+          <p class="gids2" >
+         Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+         <div class="row " style=" height: 120px; display: flex;
+       
+        align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class="" style="color: #1A3E3E;text-decoration: none;" href="#" > читать статью</a>
+          </p>
+      </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div  class="col block " style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 16px; gap: px;">
+        <div class="col-lg-6 col-md-2 "  >
+          <img class="" src="./images/Rectangle 19 (1).png" alt="Photo 1">
+        </div>
+        <div class=" col-lg-6 " style="text-align: start;" >
+          <h4 class="gids">Долой сомнения! Весь мир открыт для вас!</h4>
+          <p class="gids2">
+          Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих условий</p>
+          <div class="row " style=" height: 100px; display: flex;
+                align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class=" " style="color: #1A3E3E;text-decoration: none;"  href="#" > читать статью</a>
+          </p>
+              </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col block " style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
+      padding: 16px; gap: px;">
+        <div class="col-lg-6" >
+          <img class="" style="margin-top: 10px;" src="./images/Rectangle 19 (2).png" alt="Photo 1">
+        </div>
+        <div class="col-lg-6 " >
+          <h4 class="gids">Как подготовиться к путешествию в одиночку? </h4>
+          <p class="gids2">
+          Для современного мира базовый вектор развития предполагает.</p>
+          <div class="row " style=" height: 170px; display: flex;
+       
+        align-items: flex-end;"> 
+         <div class="row col-md-12"  >
+                   <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+                        <a class=" " style="color: #F2BE22;text-decoration: none;" >01/04/2023 </a>
+          </p>
+            <p class="col-lg-6 col-md-6" style="color: #F3F5F4">
+            <a class=" " style="color: #1A3E3E;text-decoration: none;"  href="#" > читать статью</a>
+          </p>
+        
+      </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+   <div class="row" style=" text-align: center;" >
+  <div class="col" > 
+      <button class=" but" style="text-align: center;">Другие материалы</button> 
+  </div> 
+</div>
+<br>
+</section>
+<section class="col-12 container section-5 arr" >
+  <div class="col-12 arr"  >
+      <div class="col-lg-12 text-block arr" style="text-align: center;" >
+          <h4 class="zhel" style="text-align: center;" >фото-отчет</h4>
+          <p class="black" style="text-align: center;">Делимся впечатлениями</p>
+      </div>
+  </div>
+  <div class="row container">
+    <div class="row col-lg-12 ">
+      <div class="col-lg-6" >
+       <img class="da" src="./images/Rectangle 20.svg" alt="">
+      </div>
+      <div class="col-lg-3 off">
+        <img class="yes off"src="./images/Rectangle 21.png" alt="">
+      </div>
+      <div class="col-lg-3 off">
+        <img class="yes off"src="./images/Rectangle 22.png" alt="">
+      </div>
+    </div>
+    <div class="row col-lg-12 off">
+      <div class="col-lg-3">
+        <img class="yes off" src="./images/Rectangle 24.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <img class="da off"src="./images/Rectangle 23.png" alt="">
+      </div>
+      <div class="col-lg-3">
+        <img class="yes off" src="./images/Rectangle 25.png" alt="">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row" style=" text-align: center;" >
+    <div class="col" > 
+        <button class=" but" style="text-align: center;">Наш pinterest</button> 
+    </div> 
+  </div>
+  <br>
+</section>
+<section class="col-12 container section-6 " style="display: none;">
+  <div class="col-12"  >
+      <div class="col-lg-12 text-block" style="text-align: start;" >
+          <h4 class="zhel" >фото-отчет</h4>
+          <p class="black" >Делимся впечатлениями</p>
+      </div>
+  </div>
+  <div class="row container">
+    <div class="row col-6 " >
+      
+      <input style="
+      width: 250px;
+      height: 50px;
+      border-radius: 4px;
+      gap: 10px;
+      background: #F3F5F4;
+
+      " type="email" id="emailInput" placeholder="name@domain.com" required>  
+          <p class="em">Введите e-mail адресями</p>
+    </div>
+    
+  </div>
+  <br>
+  <div class="col-6" >
+    <div class="" > 
+        <button class="but" >Подписаться на новости</button> 
+        <br>
+        <p class="md-2 gids2" >
+          подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок</p>
+          
+    </div> 
+    
+    <br>
+</div>
+</section>
+
+<div class="half pa" style="background-color: #1A3E3E;; height:185px;">
+   <div class="half-block pa" style="background-color:#ffffff;; height: 50%;">
+  <div class=" container pa"  >
+  <div class=" row" style="
+  background-color: #FDFDFD;
+          box-shadow: 0px 0px 5px 0px #FDFDFD;
+            border-radius: 12px;
+  " >
+      <div class="col-lg-6 col-md-7">
+          <section class="section" style="text-align: center;" >
+              <div class="col-lg-12 text-block" style="text-align:center;" >
+                <h4 class="zhel" style="text-align: center;">актуально</h4>
+                <p class="black" style="text-align: center;">Получайте полезные рассылки о путешествиях</p>
+            </div>
+          </section>
+      </div>
+      <br>
+      <div class="col-lg " >
+          <section class="row ">
+            <div class="row " >
+              <p class="col-12 em">Введите e-mail адресями</p>
+              <input style="
+              width: 250px;
+              height: 50px;
+              border-radius: 4px;
+              gap: 10px;
+              background: #F3F5F4;
+          
+              " type="email" id="emailInput" placeholder="name@domain.com" required>  
+                  <button style="margin-left: 20px;" class="col-5 but" >Подписаться на новости</button> 
+                  
+            </div>
+            <div class="" > 
+             
+              <p class="md-2 gids2">
+                подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок</p>
+                
+          </div> 
+          <br>
+          
+          </section>
+      </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+</div>
+        <footer class="col-lg-12" style="background: #1A3E3E; ">
+        <br>
+        <br>
+        <div class="container text-center"  >
+            <div class="row" style="background: #1A3E3E; text-align: start;">
+              <div class="col-lg-4 col-12 ">
+                <div class="widget" style="color: #F3F5F4;
+            ">
+              <h4 class="widget-title mb-4">Компания «РумТибет»</h4>
+              <address class="mb-4">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</address>
+              <p class="mb-1">
+                <a class="link-secondary text-decoration-none" href="tel:+15057922430"></a>
+              </p>
+              <br>
+              <br>
+              <p class="col-lg-12 " style="color: #F3F5F4">
+                <a class=" " style="color: #F3F5F4" href="mailto:demo@yourdomain.com">info@domain.com </a>
+                
+                <a class=" " style="color: #F3F5F4" > +7 (123) 456-78-90</a>
+              </p>
+              
+              <br>
+              <ul class="nav justify-content-sm-start justify-content-sm-start">
+                <li class="nav-item">
+                  <a class="nav-link link-dark" href="#!">
+                    <svg style="color: #F3F5F4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-dark" href="#!">
+                    <svg style="color: #F3F5F4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-dark" href="#!">
+                    <svg style="color: #F3F5F4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-dark" href="#!">
+                    <svg  style="color: #F3F5F4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <br>
+            <br>
+                    </div>
+              </div>
+
+              <div class="col-lg-4 col-12" style="color: #F3F5F4;
+              ">
+                <div class="widget" style="color: #F3F5F4;
+                ">
+                    <h4 class="widget-title mb-4">Наши услуги</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                          <a href="#!" style="color: #F3F5F4;">> Прогулки в горы летом</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" style="color: #F3F5F4; ">> Зимние походы в горы</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" style="color: #F3F5F4; ">> Посещение храмов в горах   </a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" style="color: #F3F5F4;  ">> Экстремальные виды туризма</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#!" style="color: #F3F5F4;  ">> Походы в джунглях Амазонии</a>
+                          </li>
+                          <li class="mb-3">
+                            <a href="" style="color: #F3F5F4;  ">> Поездка в Африку</a>
+                          </li>
+                    
+                      </ul>
+                      
+                      <br>
+                      <br>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="widget" >
+                    <h4 class="widget-title mb-3" style="color: #F3F5F4;
+                    ">Важно для путешествий</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <a href="#!" style="color: #F3F5F4;">> Как собрать в долгий поход?</a>
+                      </li>
+                      <li class="mb-3">
+                        <a href="#!" style="color: #F3F5F4; ">> Жизненно важные предметы для похода</a>
+                      </li>
+                      <li class="mb-3">
+                        <a href="#!" style="color: #F3F5F4; ">> Медицинская страховка, гарантии безопасности   </a>
+                      </li>
+                      <li class="mb-3">
+                        <a href="#!" style="color: #F3F5F4;  ">> Если вы врач - загляните сюда</a>
+                      </li>
+                      <style>
+                        a:hover {
+                          color: yellow;
+                          text-decoration: underline;
+                        }
+                      </style>
+                    </ul>
+                   
+                  </div>
+                 
+              </div>
+            </div>
+            
+          
+        </footer>
+        <footer class="col-lg-12" style="background: #18121E;        ">
+            <br>
+            <br>
+            <div class="container text-center"  >
+            <div class="row">
+              <div class="col-lg-5 col-12 mb-12" style="color: #FFFFFF;
+              ">
+                ИП Константинопольский К.К., 2023
+              </div>
+              <br>
+              <br>
+              <div class="col-lg-7 col-12 mb-12" style="color: #FFFFFF;
+              ">
+              <a href="#!" style="color: #F3F5F4;  ">  Политика обработки персональных данных</a>
+              
+              </div>
+            </div>
+            <br>
+            <br>
+          </div>
+    </footer>
+        
+    </div>
+    <script src="./js/main.min.js"></script>
+</body>
+
+</html>
