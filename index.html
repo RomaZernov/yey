@@ -203,60 +203,15 @@
       </div>
   </div>
 
-   <section class="main__rating rating iz" >
-    <div class="rating__container">
-                <ul class="rating__list">
-            <li class="rating__item trip iz">
-                <div class="trip__info">
-                    <h4 class="trip__title">Озеро возле гор</h4>
-                    <p class="trip__text">романтическое приключение</p>
-                    <span class="trip__price">480 $</span>
-                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
-                    <a class="trip__link" href="#">Программа тура</a>
-                </div>
-                <div class="trip__stars"> <img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.9</div>
-                <img class="trip__image" src="./images/fon.svg" alt="Озеро возле гор" width="380" height="500">
-            </li>
-            <li class="rating__item trip iz">
-                <div class="trip__info">
-                    <h4 class="trip__title">Ночь в горах</h4>
-                    <p class="trip__text">в компании друзей</p>
-                    <span class="trip__price">500 $</span>
-                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
-                    <a class="trip__link" href="#">Программа тура</a>
-                </div>
-                <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.5</div>
-                <img class="trip__image" src="./images/фоновое изображение.svg" alt="Озеро возле гор" width="380" height="500">
-            </li>
-            <li class="rating__item trip iz">
-                <div class="trip__info">
-                    <h4 class="trip__title">Йога в горах</h4>
-                    <p class="trip__text">для тех, кто забоится о себе</p>
-                    <span class="trip__price">230 $</span>
-                    <p class="trip__description">Его корни уходят в один фрагмент классической латыни 45 года н.э. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
-                    <a class="trip__link" href="#">Программа тура</a>
-                </div>
-                <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">5.0</div>
-                <img class="trip__image" src="./images/фоновое изображение (1).svg" alt="Озеро возле гор" width="380" height="500">
-            </li>
-        </ul>
-
-    </div>
-</section>
+  
 <style>
   .carousel-control-prev {
     display: none;
 }
 </style>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <li class="rating__item trip ">
+<div class="container23 container">    
+  <div class="scrollable" onmousedown="startDrag(event)" onmousemove="drag(event)" onmouseup="endDrag()">    
+      <div class=" item">    <li class="rating__item trip ">
         <div class="trip__info">
             <h4 class="trip__title">Озеро возле гор</h4>
             <p class="trip__text">романтическое приключение</p>
@@ -266,10 +221,8 @@
         </div>
         <div class="trip__stars"> <img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.9</div>
         <img class="trip__image" src="./images/fon.svg" alt="Озеро возле гор" width="380" height="500">
-    </li>
-    </div>
-    <div class="carousel-item">
-      <li class="rating__item trip ">
+    </li></div>    
+      <div class="item" style="padding-left: 25px; padding-right: 25px;">  <li class="rating__item trip ">
         <div class="trip__info">
             <h4 class="trip__title">Ночь в горах</h4>
             <p class="trip__text">в компании друзей</p>
@@ -279,10 +232,8 @@
         </div>
         <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">4.5</div>
         <img class="trip__image" src="./images/фоновое изображение.svg" alt="Озеро возле гор" width="380" height="500">
-    </li>
-    </div>
-    <div class="carousel-item">
-      <li class="rating__item trip ">
+    </li></div>    
+      <div class="item">   <li class="rating__item trip ">
         <div class="trip__info">
             <h4 class="trip__title">Йога в горах</h4>
             <p class="trip__text">для тех, кто забоится о себе</p>
@@ -292,18 +243,9 @@
         </div>
         <div class="trip__stars"><img src="./images/Vector (2).svg" style="margin-right: 5px;" alt="">5.0</div>
         <img class="trip__image" src="./images/фоновое изображение (1).svg" alt="Озеро возле гор" width="380" height="500">
-    </li>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+    </li></div>    
+  </div>    
+</div>  
 
 
   <br>
@@ -318,13 +260,37 @@
 
 </section>
 <section class="col-12 container section4 " >
-  <div class="col-12"  >
-    <div class="col-lg-12 text-block" style="text-align: center;" >
-        <h4 class="zhel" style="text-align: center;">по версии отдыхающих</h4>
-        <p class="black" style="text-align: center;" >Популярные направления</p>
-    </div>
-</div>
-  <div class="iz " >
+
+<style>    
+  .container23 {    
+      width: 100%;    
+   height: 500px;
+
+      overflow-x: hidden;    
+      position: relative;    
+  }    
+
+  .scrollable {    
+      white-space: nowrap;    
+      display: flex;    
+      transition: transform 0.3s ease;    
+  }    
+
+  .item {    
+     
+  }    
+  
+  /* Disable text selection */
+  .scrollable, .item {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+</style>     
+  
+ 
+  <div class="iz" >
     <div class="col-lg-12 col-md-12" style="display: flex;" >
       <div class="col  block" style="background-color: #FDFDFD; border-radius: 10px;box-shadow: 0px 0px 15px 0px #18121E1F;
       padding: 15px; gap:24 px;">
@@ -531,10 +497,10 @@
           <p class="black" style="text-align: center;">Делимся впечатлениями</p>
       </div>
   </div>
-  <div class="row container">
+  <div class="row container ">
     <div class="row col-lg-12 ">
       <div class="col-lg-6" >
-       <img class="da" src="./images/Rectangle 20.svg" alt="">
+       <img class="" src="./images/Rectangle 20.svg" alt="">
       </div>
       <div class="col-lg-3 off">
         <img class="yes off"src="./images/Rectangle 21.png" alt="">
@@ -555,6 +521,7 @@
       </div>
     </div>
   </div>
+
   <br>
   <div class="row" style=" text-align: center;" >
     <div class="col" > 
