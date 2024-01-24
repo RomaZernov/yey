@@ -144,6 +144,7 @@ main {
     left: 150%;
   }
 }
+
 .header {
   padding-top: 16px;
 }
@@ -187,6 +188,7 @@ main {
   .header__logo {
     width: 100px;
   }
+
   .header__btn {
     padding: 9px 12px;
   }
@@ -888,4 +890,45 @@ main {
   transition-property: opacity;
   transition-delay: 1s;
   display: none;
+}
+input {
+  width: 650px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+.input1 {
+  width: 650px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+input:hover {
+  box-shadow: 0px 0px 15px#235050;
+}
+@media (max-width: 450px) {
+  input {
+    max-width: 400px;
+    margin-top: 50px;
+  }
+  .input1 {
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  .ima {
+    margin-top: 10px;
+  }
+  .opa {
+    order: 2;
+  }
 }
